@@ -6,5 +6,13 @@ source venv3/bin/activate
 pip3 install --upgrade pip
 pip3 install -r requirements.txt
 
-# For Monterey M1 Pro
-ARCHFLAGS="-arch arm64e" CC=clang CXX=clang++ pip install pdftotext
+
+ARCH=`uname -m`
+if [ $ARCH == "x86_64" ]
+then 
+  echo "Got intel"
+elif [ $ARCH == "arm64"]
+then 
+  # For Monterey M1 Pro
+  ARCHFLAGS="-arch arm64e" CC=clang CXX=clang++ pip install pdftotext
+fi
