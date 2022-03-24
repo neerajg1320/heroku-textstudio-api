@@ -1,3 +1,9 @@
-{"regex":"(\\d+)","text":".10 or 20 or 80.
+{
+  "regex": "\\d+",
+  "text": ".10 or 20 or 80.
 .5 or 500 or 90.
-.100 or 1 or 100.","flags":{"multiline":1}}
+.100 or 1 or 100.",
+  "flags": {
+    "multiline": 1
+  }
+}

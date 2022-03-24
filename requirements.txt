@@ -4,3 +4,4 @@ jsonschema
 pandas
 gunicorn
 pdftotext
+pdf2image
