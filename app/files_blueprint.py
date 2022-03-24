@@ -8,7 +8,7 @@ from app.utils.debug_utils import debug_log
 files_blueprint = Blueprint('files_blueprint', __name__)
 
 UPLOAD_URL = 'static'
-UPLOAD_FOLDER = 'static'
+UPLOAD_FOLDER = 'app/static'
 
 ALLOWED_EXTENSIONS = {'txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif'}
 

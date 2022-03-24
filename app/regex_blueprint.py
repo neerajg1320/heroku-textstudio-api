@@ -10,7 +10,7 @@ import json
 
 
 from app.utils.regex_utils import check_compile_regex, regex_apply_on_text
-from regex_style import create_colored_html_div
+from app.regex_style import create_colored_html_div
 from app.exceptions import InvalidParams
 
 regex_blueprint = Blueprint('regex_blueprint', __name__)
