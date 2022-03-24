@@ -1,0 +1,5 @@
+venv3
+.idea
+__pycache__
+regex-api-server/request.json
+regex-api-server/static

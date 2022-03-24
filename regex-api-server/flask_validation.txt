@@ -1,0 +1,29 @@
+https://github.com/adekoder/flask-validator
+11 months
+Candidate: Simple and not obsolete. Didn't work. Bad selection
+
+https://pypi.org/project/flask-expects-json/
+3 months
+Simple and serves the purpose for a sample project.
+
+
+https://github.com/callsign-viper/Flask-Validation
+2 years
+Did not work.
+
+https://github.com/nathancahill/flask-inputs
+4 years
+
+
+https://github.com/xeBuz/Flask-Validator
+last month, But complex, requires to define class
+
+WTForms:
+The class structure makes it like django.
+
+https://pypi.org/project/flask-request-validator/
+Cryptic syntax 
+
+
+https://pythonhosted.org/Flask-Inputs/
+Very old
