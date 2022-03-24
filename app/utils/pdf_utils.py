@@ -1,6 +1,6 @@
 import os
 
-from utils.debug_utils import debug_log
+from app.utils.debug_utils import debug_log
 
 def get_pdf_text(input_file_path):
     import pdftotext

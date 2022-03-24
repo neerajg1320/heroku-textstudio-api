@@ -1,6 +1,6 @@
 import re
 import pandas as pd
-from utils.regex_utils import check_compile_regex
+from app.utils.regex_utils import check_compile_regex
 
 def is_dataframe(var):
     return isinstance(var, pd.DataFrame)

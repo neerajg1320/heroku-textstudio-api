@@ -2,9 +2,8 @@ from flask import Blueprint
 import os
 from flask import Flask, flash, request, redirect, url_for
 from werkzeug.utils import secure_filename
-from debug_utils import debug_json
-from utils.pdf_utils import get_pdf_text, get_pdf_images
-from utils.debug_utils import debug_log
+from app.utils.pdf_utils import get_pdf_text, get_pdf_images
+from app.utils.debug_utils import debug_log
 
 files_blueprint = Blueprint('files_blueprint', __name__)
 

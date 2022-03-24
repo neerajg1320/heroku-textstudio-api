@@ -1,6 +1,6 @@
 import re
 import html
-from utils.debug_utils import debug_log
+from app.utils.debug_utils import debug_log
 
 def create_matches_html(regex, text, colors):
     pattern = re.compile(regex, re.IGNORECASE | re.MULTILINE)

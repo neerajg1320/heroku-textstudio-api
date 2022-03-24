@@ -3,7 +3,7 @@ from flask_cors import CORS
 from app.home_blueprint import home_blueprint
 from app.regex_blueprint import regex_blueprint
 from app.files_blueprint import files_blueprint
-from middleware.simple_delay_middleware import middleware
+from app.middleware.simple_delay_middleware import middleware
 
 app = Flask("REGEX")
 CORS(app)

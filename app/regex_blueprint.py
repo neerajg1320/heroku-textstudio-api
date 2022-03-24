@@ -3,15 +3,15 @@ from flask import Flask, request, jsonify
 
 from jsonschema import validate
 from jsonschema.exceptions import ValidationError
-from utils.debug_utils import debug_log
-from utils.df_utils import create_df_from_text_using_regex, is_dataframe
+from app.utils.debug_utils import debug_log
+from app.utils.df_utils import create_df_from_text_using_regex, is_dataframe
 import json  
 
 
 
-from utils.regex_utils import check_compile_regex, regex_apply_on_text
+from app.utils.regex_utils import check_compile_regex, regex_apply_on_text
 from regex_style import create_colored_html_div
-from exceptions import InvalidParams
+from app.exceptions import InvalidParams
 
 regex_blueprint = Blueprint('regex_blueprint', __name__)
 

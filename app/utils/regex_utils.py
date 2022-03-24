@@ -1,6 +1,6 @@
 import re
-from exceptions import InvalidParams
-from utils.debug_utils import debug_log
+from app.exceptions import InvalidParams
+from app.utils.debug_utils import debug_log
 
 # Ref:
 # https://stackoverflow.com/questions/19630994/how-to-check-if-a-string-is-a-valid-regex-in-python
