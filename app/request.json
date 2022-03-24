@@ -1,0 +1,237 @@
+{"regex":"(?#
+)(^\\s{0,15}Redemption(?#
+)\\s{1,8}(?P<RedemptionDate>\\d{2}-\\w{3}-\\d{4})(?#
+)\\s{1,8}(?P<Units>[\\d.,]+)(?#
+)\\s{1,8}(?P<Amount>[\\d.,]+)(?#
+)\\s{1,8}(?P<Price>[\\d.,]+)(?#
+)\\s{1,8}(?P<STT>[\\d.,()]+)(?# STT refund in last transaction
+)\\s{1,8}(?P<Description>\\w+(?: \\w+))(?#
+)\\s{1,8}(?P<PurchaseDate>\\d{2}-\\w{3}-\\d{4})(?#
+)\\s{1,20}(?P<PurchaseUnits>[\\d.,]+)(?# date was inserted and existing space was not removed
+)\\s{1,16}(?P<RedeemedUnits>[\\d.,]+)(?#
+)\\s{1,16}(?P<UnitCost>[\\d.,]+)(?#
+)\\s{1,16}(?P<IndexedCost>[\\d.,]+)(?#
+)\\s{1,16}(?P<UnitsGF20180131>[\\d.,]+)(?#
+)\\s{1,16}(?P<NAV20180131>[\\d.,]+)(?#
+)\\s{1,16}(?P<MarketValue20180131>[\\d.,]+)(?#
+)\\s{1,20}(?P<CGST>[\\d.,()]+)(?# space has increase as we have just a 0
+)\\s{1,20}(?P<CGLTIndexed>[\\d.,()]+)(?# 
+)\\s{1,20}(?P<CGLTNonIndexed>[\\d.,()]+)(?# 
+)\\s{1,20}(?P<TDSPercentage>[\\d.,]+)(?# 
+)\\s{1,20}(?P<TaxDeducted>[\\d.,]+)(?# 
+)\\s{1,20}(?P<TaxWithSurcharge>[\\d.,]+)(?# 
+)).*$(?#
+)","text":"                                                                                                                         Investment Gain / (Loss) Statement*
+                                                                                                                For the period 01-Apr-2020 To 31-Mar-2021                                                                                                                     Page 1 of 4
+                                                                                                                                                                                                                                                                              16-Jun-2020
+Folio No.                      : 10383790/83
+Name                           : Neeraj Gupta                                                                       Status          :                        Individual                                                       PAN            :                      AEWPG4169E
+                                D-403 RAHEJA RESIDENCY
+                                7TH CROSS 8TH C MAIN
+                                3RD BLOCK KORAMANGALA
+                                BANGALORE - 560034
+                                Karnataka - India
+                           A : Redemption/Switchout                                     B : Corresponding units in Purchase/Switch In/Div. Reinvestment                              C: Grandfathered Investments as on                  D : Capital Gains / (Losses)                  E : TDS (if applicable)
+                                                                                                                                                                                               31st Jan 2018
+                                                                                                                                                                                                                                                                   Long Term W/O
+                                                                                                                                                                                                                  Market                                                                      Tax Deducted     (Tax +
+                                                                                                                  Purchase Units                    Unit Cost (INR)    Indexed       Units as on   NAV as on                   Short Term (INR)   Long Term With     Indexation
+   Description      Date         Units     Amount (INR)   Price (INR)      STT       Description       Date                        Redeemed Units                                                               Value as on                                                        Tax Perc       (INR)      Surcharge)
+                                                                                                                                                                      Cost** (INR)   31/01/2018    31/01/2018                                       Index (INR)         (INR)
+                                                                                                                                                                                                                31/01/2018                                                                                      (INR)
+ HDFC Mid-Cap Opportunities Fund - Regular Plan - Growth ( Equity(G) )
+                                                                                                     
+   Redemption    01-Jun-2020    134.3580     5,989.50      44.5790      0.05989550   SIP Purchase    18-Dec-2015                134.3580           134.3580       37.2140          52.8280       134.36        58.63       7,877.81             0                  0              0.00           0            0             0
+                                                                                                     
+                                                                                                      
+   Redemption    01-Jun-2020    146.3230     6,522.88      44.5790      0.06522930   SIP Purchase    20-Jan-2016                146.3230           146.3230       34.1710          52.8280       146.32        58.63       8,579.36             0                  0              0.00           0            0             0
+                                                                                                      
+                                                                                                      
+   Redemption    01-Jun-2020    149.3250     6,656.71      44.5790      0.06656760   SIP Purchase    22-Feb-2016                149.3250           149.3250       33.4840          52.8280       149.32        58.63       8,755.37             0                  0              0.00           0            0             0
+                                                                                                      
+                                                                                                      
+   Redemption    01-Jun-2020    140.3630     6,257.19      44.5790      0.06257240   SIP Purchase    21-Mar-2016                140.3630           140.3630       35.6220          52.8280       140.36        58.63       8,229.90             0                  0              0.00           0            0             0
+                                                                                                      
+                                                                                                    
+   Redemption    01-Jun-2020    133.4010     5,946.83      44.5790      0.05946880   SIP Purchase    20-Apr-2016                133.4010           133.4010       37.4810          50.8270       133.40        58.63       7,821.70             0                  0              0.00           0            0             0
+                                                                                                     
+   Redemption    01-Jun-2020     133.69      5,959.72      44.5790      0.05959770   SIP Purchase    20-May-2016                133.69             133.69          37.40          50.8270       133.69        58.63       7,838.65             0                  0              0.00           0            0             0
+                                                                                                     
+                                                                                                      
+   Redemption    01-Jun-2020    127.6620     5,690.99      44.5790      0.05691040   SIP Purchase    20-Jun-2016                127.6620           127.6620       39.1660          50.8270       127.66        58.63       7,485.21             0                  0              0.00           0            0             0
+                                                                                                      
+                                                                                                    
+   Redemption    01-Jun-2020    120.1810     5,357.51      44.5790      0.05357550   SIP Purchase    20-Jul-2016                120.1810           120.1810       41.6040          50.8270       120.18        58.63       7,046.57             0                  0              0.00           0            0             0
+                                                                                                     
+   Redemption    01-Jun-2020    113.2370     5,047.95      44.5790      0.05047990   SIP Purchase    22-Aug-2016                113.2370           113.2370       44.1550          50.8270       113.24        58.63       6,639.43             0                  0              0.00           0            0             0
+                                                                                                     
+                                                           For any enquiries, please contact Investor Service Centre, Computer Age Management Services Pvt. Ltd., A&B, Lakshmi Bhavan, 609, Anna Salai Chennai-600002 Tamil Nadu
+                                                                                                          Phones: 1600-33-4449, Fax: 044-8526543 Email :serviceschennai@hdfcfund.com
+\f
+                        A : Redemption/Switchout                                    B : Corresponding units in Purchase/Switch In/Div. Reinvestment                              C: Grandfathered Investments as on                 D : Capital Gains / (Losses)                  E : TDS (if applicable)
+                                                                                                                                                                                           31st Jan 2018
+                                                                                                                                                                                                                                                              Long Term W/O
+                                                                                                                                                                                                              Market                                                                     Tax Deducted     (Tax +
+                                                                                                              Purchase Units                    Unit Cost (INR)    Indexed       Units as on   NAV as on                  Short Term (INR)   Long Term With     Indexation
+Description      Date        Units     Amount (INR)   Price (INR)      STT       Description       Date                        Redeemed Units                                                               Value as on                                                       Tax Perc       (INR)      Surcharge)
+                                                                                                                                                                  Cost** (INR)   31/01/2018    31/01/2018                                      Index (INR)         (INR)
+                                                                                                                                                                                                            31/01/2018                                                                                     (INR)
+                                                                                                 
+Redemption    01-Jun-2020   110.6610     4,933.12      44.5790      0.04933160   SIP Purchase     20-Sep-2016               110.6610         110.6610         45.1830          51.5150       110.66        58.63       6,488.39            0                  0             (66.84)         0            0             0
+                                                                                                 
+                                                                                                
+Redemption    01-Jun-2020   107.2550     4,781.28      44.5790      0.04781320   SIP Purchase     20-Oct-2016               107.2550         107.2550         46.6180          53.1520       107.25        58.63       6,288.68            0                  0             (218.69)        0            0             0
+                                                                                                 
+Redemption    01-Jun-2020    119.17      5,312.44      44.5790      0.05312480   SIP Purchase     21-Nov-2016                119.17           119.17          41.9570          50.8270       119.17        58.63       6,987.29            0                  0              0.00           0            0             0
+                                                                                                 
+                                                                                                 
+Redemption    01-Jun-2020   118.0640     5,263.14      44.5790      0.05263180   SIP Purchase     20-Dec-2016               118.0640         118.0640           42.35          50.8270       118.06        58.63       6,922.45            0                  0              0.00           0            0             0
+                                                                                                 
+                                                                                                  
+Redemption    01-Jun-2020   112.9050     5,033.15      44.5790      0.05033190   SIP Purchase     20-Jan-2017               112.9050         112.9050         44.2850          50.8270       112.91        58.63       6,619.96            0                  0              0.00           0            0             0
+                                                                                                  
+                                                                                                  
+Redemption    01-Jun-2020   105.9770     4,724.31      44.5790      0.04724350   SIP Purchase     20-Feb-2017               105.9770         105.9770           47.18          53.7920       105.98        58.63       6,213.75            0                  0             (275.65)        0            0             0
+                                                                                                  
+                                                                                                  
+Redemption    01-Jun-2020   103.1590     4,598.69      44.5790      0.04598730   SIP Purchase    20-Mar-2017                103.1590         103.1590         48.4690          55.2620       103.16        58.63       6,048.52            0                  0             (401.29)        0            0             0
+                                                                                                  
+                                                                                                
+Redemption    01-Jun-2020   98.6190      4,396.30      44.5790      0.04396340   SIP Purchase    20-Apr-2017                98.6190          98.6190            50.70          56.1060        98.62        58.63       5,782.33            0                  0             (603.65)        0            0             0
+                                                                                                 
+Redemption    01-Jun-2020   98.7260      4,401.07      44.5790      0.04401110   SIP Purchase    22-May-2017                98.7260          98.7260          50.6450          56.0450        98.73        58.63       5,788.60            0                  0             (598.87)        0            0             0
+                                                                                                 
+                                                                                                  
+Redemption    01-Jun-2020   95.2290      4,245.18      44.5790      0.04245210   SIP Purchase    20-Jun-2017                95.2290          95.2290          52.5050          58.1030        95.23        58.63       5,583.56            0                  0             (754.79)        0            0             0
+                                                                                                  
+                                                                                                
+Redemption    01-Jun-2020   93.4230      4,164.67      44.5790       0.041647    SIP Purchase    20-Jul-2017                93.4230          93.4230            53.52          59.2260        93.42        58.63       5,477.67            0                  0             (835.30)        0            0             0
+                                                                                                 
+Redemption    01-Jun-2020   95.8750      4,273.98      44.5790      0.04274010   SIP Purchase    21-Aug-2017                95.8750          95.8750          52.1510          57.7110        95.88        58.63       5,621.44            0                  0             (725.97)        0            0             0
+                                                                                                 
+                                                                                                 
+Redemption    01-Jun-2020   91.0550      4,059.11      44.5790      0.04059140   SIP Purchase    20-Sep-2017                91.0550          91.0550          54.9120          60.7670        91.06        58.63       5,338.83            0                  0             (940.87)        0            0             0
+                                                                                                 
+                                                                                                
+Redemption    01-Jun-2020   91.2640      4,068.43      44.5790      0.04068460   SIP Purchase    23-Oct-2017                91.2640          91.2640          54.7860          60.6270        91.26        58.63       5,351.08            0                  0             (931.53)        0            0             0
+                                                                                                 
+Redemption    01-Jun-2020   87.3350      3,893.28      44.5790      0.03893310   SIP Purchase    20-Nov-2017                87.3350          87.3350          57.2510          63.3550        87.33        58.63       5,120.71            0                  0            (1106.71)        0            0             0
+                                                                                                 
+                                                                                                 
+Redemption    01-Jun-2020   84.7730      3,779.07      44.5790       0.037791    SIP Purchase    20-Dec-2017                84.7730          84.7730          58.9810          65.2690        84.77        58.63       4,970.50            0                  0            (1220.90)        0            0             0
+                                                                                                 
+                                                                                                  
+Redemption    01-Jun-2020   88.9520      3,965.36      44.5790      0.03965390   SIP Purchase    20-Feb-2018                88.9520          88.9520            56.21          62.2030        0.00         0.00          0.00              0                  0            (1034.60)        0            0             0
+                                                                                                  
+                                                                                                  
+Redemption    01-Jun-2020   90.0880      4,016.00      44.5790      0.04016030   SIP Purchase    20-Mar-2018                90.0880          90.0880          55.5010          61.4180        0.00         0.00          0.00              0                  0             (983.94)        0            0             0
+                                                                                                  
+                                                                                                
+Redemption    01-Jun-2020   84.6650      3,774.25      44.5790      0.03774280   SIP Purchase    20-Apr-2018                84.6650          84.6650          59.0560          62.1530        0.00         0.00          0.00              0                  0            (1225.70)        0            0             0
+                                                                                                 
+Redemption    01-Jun-2020    88.70       3,954.13      44.5790      0.03954160   SIP Purchase    21-May-2018                 88.70             88.70            56.37          59.3260        0.00         0.00          0.00              0                  0            (1045.86)        0            0             0
+                                                                                                 
+                                                       For any enquiries, please contact Investor Service Centre, Computer Age Management Services Pvt. Ltd., A&B, Lakshmi Bhavan, 609, Anna Salai Chennai-600002 Tamil Nadu
+                                                                                                      Phones: 1600-33-4449, Fax: 044-8526543 Email :serviceschennai@hdfcfund.com
+\f
+                        A : Redemption/Switchout                                    B : Corresponding units in Purchase/Switch In/Div. Reinvestment                              C: Grandfathered Investments as on                 D : Capital Gains / (Losses)                  E : TDS (if applicable)
+                                                                                                                                                                                           31st Jan 2018
+                                                                                                                                                                                                                                                              Long Term W/O
+                                                                                                                                                                                                              Market                                                                     Tax Deducted     (Tax +
+                                                                                                              Purchase Units                    Unit Cost (INR)    Indexed       Units as on   NAV as on                  Short Term (INR)   Long Term With     Indexation
+Description      Date        Units     Amount (INR)   Price (INR)      STT       Description       Date                        Redeemed Units                                                               Value as on                                                       Tax Perc       (INR)      Surcharge)
+                                                                                                                                                                  Cost** (INR)   31/01/2018    31/01/2018                                      Index (INR)         (INR)
+                                                                                                                                                                                                            31/01/2018                                                                                     (INR)
+                                                                                                  
+Redemption    01-Jun-2020    88.80       3,958.59      44.5790      0.03958620   SIP Purchase     20-Jun-2018                88.80             88.80          56.3060          60.5290        0.00         0.00          0.00              0                  0            (1041.36)        0            0             0
+                                                                                                  
+                                                                                                
+Redemption    01-Jun-2020   90.4210      4,030.85      44.5790      0.04030880   SIP Purchase     20-Jul-2018               90.4210          90.4210          55.2970          59.4440        0.00         0.00          0.00              0                  0             (969.13)        0            0             0
+                                                                                                 
+Redemption    01-Jun-2020    85.46       3,809.69      44.5790      0.03809720   SIP Purchase     20-Aug-2018                85.46             85.46          58.5070          62.8950        0.00         0.00          0.00              0                  0            (1190.29)        0            0             0
+                                                                                                 
+                                                                                                 
+Redemption    01-Jun-2020   91.2110      4,066.07      44.5790       0.040661    SIP Purchase     21-Sep-2018               91.2110          91.2110          54.8180          58.9290        0.00         0.00          0.00              0                  0             (933.91)        0            0             0
+                                                                                                 
+                                                                                                
+Redemption    01-Jun-2020   100.9880     4,501.90      44.5790      0.04501940   SIP Purchase     22-Oct-2018               100.9880         100.9880         49.5110          53.2240        0.00         0.00          0.00              0                  0             (498.07)        0            0             0
+                                                                                                 
+Redemption    01-Jun-2020   97.2910      4,337.10      44.5790      0.04337140   SIP Purchase     20-Nov-2018               97.2910          97.2910          51.3920          55.2460        0.00         0.00          0.00              0                  0             (662.84)        0            0             0
+                                                                                                 
+                                                                                                 
+Redemption    01-Jun-2020   93.8650      4,184.38      44.5790      0.04184410   SIP Purchase     20-Dec-2018               93.8650          93.8650          53.2680          57.2630        0.00         0.00          0.00              0                  0             (815.59)        0            0             0
+                                                                                                 
+                                                                                                  
+Redemption    01-Jun-2020    95.67       4,264.84      44.5790      0.04264870   SIP Purchase     21-Jan-2019                95.67             95.67          52.2630          56.1830        0.00         0.00          0.00              0                  0             (735.13)        0            0             0
+                                                                                                  
+                                                                                                  
+Redemption    01-Jun-2020   100.7410     4,490.89      44.5790      0.04490930   SIP Purchase     20-Feb-2019               100.7410         100.7410         49.6320          53.3540        0.00         0.00          0.00              0                  0             (509.04)        0            0             0
+                                                                                                  
+                                                                                                  
+Redemption    01-Jun-2020   91.4680      4,077.52      44.5790      0.04077550   SIP Purchase     20-Mar-2019               91.4680          91.4680          54.6640          58.7640        0.00         0.00          0.00              0                  0             (922.45)        0            0             0
+                                                                                                  
+                                                                                                
+Redemption    01-Jun-2020   91.0880      4,060.58      44.5790      0.04060610   SIP Purchase     22-Apr-2019               91.0880          91.0880          54.8920          59.0090        0.00         0.00          0.00              0                  0             (939.39)        0            0             0
+                                                                                                 
+Redemption    01-Jun-2020   93.3720      4,162.40      44.5790      0.04162430   SIP Purchase     20-May-2019               93.3720          93.3720          53.5490          57.5650        0.00         0.00          0.00              0                  0             (837.55)        0            0             0
+                                                                                                 
+                                                                                                  
+Redemption    01-Jun-2020   93.1530      4,111.09      44.1330      0.04111120   SIP Purchase     20-Jun-2019               93.1530          93.1530          53.6750          53.6750        0.00         0.00          0.00           (888.87)              0                0            0            0             0
+                                                                                                  
+                                                                                                
+Redemption    01-Jun-2020   98.4580      4,345.21      44.1330      0.04345250   SIP Purchase     22-Jul-2019               98.4580          98.4580          50.7830          50.7830        0.00         0.00          0.00           (654.75)              0                0            0            0             0
+                                                                                                 
+Redemption    01-Jun-2020   101.3340     4,472.13      44.1330      0.04472170   SIP Purchase     20-Aug-2019               101.3340         101.3340         49.3420          49.3420        0.00         0.00          0.00           (527.85)              0                0            0            0             0
+                                                                                                 
+                                                                                                 
+Redemption    01-Jun-2020   97.1670      4,288.23      44.1330      0.04288270   SIP Purchase     20-Sep-2019               97.1670          97.1670          51.4580          51.4580        0.00         0.00          0.00           (711.75)              0                0            0            0             0
+                                                                                                 
+                                                                                                
+Redemption    01-Jun-2020   96.6430      4,265.11      44.1330      0.04265150   SIP Purchase     22-Oct-2019               96.6430          96.6430          51.7370          51.7370        0.00         0.00          0.00           (734.87)              0                0            0            0             0
+                                                                                                 
+Redemption    01-Jun-2020   94.1120      4,153.41      44.1330      0.04153440   SIP Purchase     20-Nov-2019               94.1120          94.1120          53.1280          53.1280        0.00         0.00          0.00           (846.54)              0                0            0            0             0
+                                                                                                 
+                                                                                                 
+Redemption    01-Jun-2020   94.9290      4,189.47      44.1330       0.041895    SIP Purchase     20-Dec-2019               94.9290          94.9290          52.6710          52.6710        0.00         0.00          0.00           (810.50)              0                0            0            0             0
+                                                                                                 
+                                                                                                  
+Redemption    01-Jun-2020    89.58       3,953.40      44.1330      0.03953430   SIP Purchase     20-Jan-2020                89.58             89.58          55.8160          55.8160        0.00         0.00          0.00          (1046.56)              0                0            0            0             0
+                                                                                                  
+                                                       For any enquiries, please contact Investor Service Centre, Computer Age Management Services Pvt. Ltd., A&B, Lakshmi Bhavan, 609, Anna Salai Chennai-600002 Tamil Nadu
+                                                                                                      Phones: 1600-33-4449, Fax: 044-8526543 Email :serviceschennai@hdfcfund.com
+\f
+                               A : Redemption/Switchout                                        B : Corresponding units in Purchase/Switch In/Div. Reinvestment                             C: Grandfathered Investments as on               D : Capital Gains / (Losses)                    E : TDS (if applicable)
+                                                                                                                                                                                                     31st Jan 2018
+                                                                                                                                                                                                                                                                        Long Term W/O
+                                                                                                                                                                                                                        Market                                                                     Tax Deducted     (Tax +
+                                                                                                                        Purchase Units                    Unit Cost (INR)    Indexed       Units as on   NAV as on                  Short Term (INR)   Long Term With     Indexation
+     Description        Date       Units     Amount (INR)    Price (INR)       STT          Description      Date                        Redeemed Units                                                               Value as on                                                       Tax Perc       (INR)      Surcharge)
+                                                                                                                                                                            Cost** (INR)   31/01/2018    31/01/2018                                      Index (INR)         (INR)
+                                                                                                                                                                                                                      31/01/2018                                                                                     (INR)
+                                                                                                            
+      Redemption    01-Jun-2020   87.0560      3,842.01        44.1330      0.03842040     SIP Purchase     20-Feb-2020               87.0560          87.0560          57.4340          57.4340        0.00         0.00          0.00          (1157.93)              0                0            0            0             0
+                                                                                                            
+                                                                                                            
+      Redemption    01-Jun-2020   119.4430     5,271.34        44.1330      0.05271380     SIP Purchase     20-Mar-2020               119.4430         119.4430         41.8610          41.8610        0.00         0.00          0.00            271.37               0                0            0            0             0
+                                                                                                            
+                                                                                                          
+      Redemption    01-Jun-2020   116.7920     5,154.34        44.1330      0.05154380     SIP Purchase     20-Apr-2020               116.7920         116.7920         42.8110          42.8110        0.00         0.00          0.00            154.40               0                0            0            0             0
+                                                                                                           
+      Redemption    01-Jun-2020    120.91      5,336.02        44.1330     (0.39058690)    SIP Purchase     20-May-2020                120.91           120.91          41.3530          41.3530        0.00         0.00          0.00            336.13               0                0            0            0             0
+                                                                                                           
+                                                                                                                                                                                                                                                                        (23025.9100)
+              Total :                         5494.3870      244392.8100                                                                                                                                                             (6617.7200)          0.0000                        0.0000       0.0000        0.0000
+   Summary of Dividend received in this period in this scheme :                           Paid Out :                      0.00                                               Reinvest :                    0.00
+*Disclaimer :
+This investment gain / loss statement is issued at your request as additional information and should not be considered as the basis for determining your tax liability. For the purpose of determining capital gains, the first in first out principle of
+appropriating withdrawals against subscriptions is followed. This statement is generated based on latest index value provided by AMC on the date of preparation of the statement and till index is notified by IT department, it could be at variance
+from applicable index for the financial year. Where applicable TDS has been deducted based on the index value provided by the AMC on the date of redemption transaction and it could be at variance from applicable index for the financial year.
+The statement shows actual STT and TDS deducted from your withdrawals and displays your tax status as on the date of generation of the statement. You are advised to consult your financial / tax advisor to verify the correctness and
+appropriateness of the contents of the statement. The Mutual Fund, Trustees, Asset management company, CAMS and each of their directors, employees or agents will not be liable for either determining your tax liability or any loss or damage
+arising out of any decisions / actions arising out of the contents of this statement.
+Note :
+Indexed cost where applicable = Purchase price * ( Index provided by AMC as on the date of generation of the statement) / (tax index applicable for the year of subscription of units redeemed)
+Unit Cost = Purchase Price
+                                                              For any enquiries, please contact Investor Service Centre, Computer Age Management Services Pvt. Ltd., A&B, Lakshmi Bhavan, 609, Anna Salai Chennai-600002 Tamil Nadu
+                                                                                                             Phones: 1600-33-4449, Fax: 044-8526543 Email :serviceschennai@hdfcfund.com
+\f","flags":{"multiline":1}}
