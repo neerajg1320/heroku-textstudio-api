@@ -1,2 +1,2 @@
-# libpoppler-cpp-dev
-poppler-utils
+libpoppler-cpp-dev # for python library pdftotext
+poppler-utils # for application pdfinfo
