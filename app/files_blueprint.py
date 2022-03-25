@@ -53,7 +53,7 @@ def upload_file():
 
                     # This should be spun off as a separate thread
                     # Get Images
-                    # Disabled: get_pdf_images(filepath, UPLOAD_FOLDER)
+                    get_pdf_images(filepath, UPLOAD_FOLDER)
 
             fileurl = url_for(UPLOAD_URL, filename=filename, _external=True)
             file_response.update({'url': fileurl})
