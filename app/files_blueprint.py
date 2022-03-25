@@ -15,6 +15,9 @@ ALLOWED_EXTENSIONS = {'txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif'}
 app = Flask("REGEX")
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
+def str_to_bool(s):
+    return s.lower() in ["true", "t", "yes", "y"]
+
 def allowed_file(filename):
     return '.' in filename and \
            filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
@@ -26,6 +29,14 @@ def upload_file():
         if 'files[]' not in request.files:
             flash('No file part')
             return redirect(request.url)
+
+        if 'images' in request.form:
+            flag_create_images = str_to_bool(request.form.get('images'))
+        else:
+            flag_create_images = False
+
+        debug_log('flag_create_images:', flag_create_images)
+
 
         response_array = []
         files = request.files.getlist('files[]')
@@ -53,7 +64,8 @@ def upload_file():
 
                     # This should be spun off as a separate thread
                     # Get Images
-                    get_pdf_images(filepath, UPLOAD_FOLDER)
+                    if flag_create_images:
+                        get_pdf_images(filepath, UPLOAD_FOLDER)
 
             fileurl = url_for(UPLOAD_URL, filename=filename, _external=True)
             file_response.update({'url': fileurl})
