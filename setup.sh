@@ -7,11 +7,10 @@ pip3 install --upgrade pip
 pip3 install -r requirements.txt
 
 
-ARCH=`uname -m`
-if [ $ARCH == "x86_64" ]
-then 
-  echo "Got intel"
-elif [ $ARCH == "arm64"]
+ARCH=$(uname -m)
+echo "Architecture: ${ARCH}"
+
+if [ $ARCH == "arm64" ]
 then 
   # For Monterey M1 Pro
   ARCHFLAGS="-arch arm64e" CC=clang CXX=clang++ pip install pdftotext
